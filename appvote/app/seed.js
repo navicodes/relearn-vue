@@ -10,7 +10,10 @@ window.Seed = function(){
             subimissionImage : 'bi bi-amd feed-image'
         },
     ];
-    return {
-        submissions: submissions
-    };
+    // return {
+    //     submissions: submissions
+    // };
+
+    window.Seed.submissions = submissions;
+    
 }
