@@ -1,6 +1,6 @@
 new Vue({
     el: '#app',
     data: {
-        submissions : seed.submissions
+        submissions : Seed.submissions
     }
 });
