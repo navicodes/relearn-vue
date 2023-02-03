@@ -82,7 +82,7 @@
                                 <br>
                                 <div class="text-small">
                                     Submitted by:
-                                    <img class="avatar" src="../public/images/avatars/256_1.png">
+                                    <img class="avatar" v-bind:src="submissions[0].avatar">
                                 </div>
                             </div>
                             
@@ -91,7 +91,7 @@
                     <div class="col-md-1 text-center">
                         <span class="votes-count">
                             <i class="bi bi-chevron-up small-icon"></i>
-                            <b>10</b>
+                            <b> {{ submissions[0].votes }} </b>
                         </span>
                     </div>
 
