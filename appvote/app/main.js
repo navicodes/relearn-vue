@@ -1,6 +1,6 @@
 new Vue(
     el: '#app',
     data: {
-        submissions : SVGAnimatedEnumeration.submissions
+        submissions : Seed.submissions
     }
 );

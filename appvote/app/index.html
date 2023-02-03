@@ -64,7 +64,7 @@
                     <div class="col-md-1">
                         <div class="feed-image text-left">
                             <!-- image or icon-->
-                            <i class="bi bi-amd image-icon"></i>
+                            <i v-bind:class="submissions[0].submissionImage"></i>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -72,11 +72,13 @@
                         <div class="section">
                             <div class="content">
                                 <b>
-                                    <a href="" class="">AMD grand office in Africa</a>
-                                    <span class="tag">#4</span>
+                                    <a href="" class="">
+                                        {{ submissions[0].title }}
+                                    </a>
+                                    <span class="tag"># {{ submissions[0].id }} </span>
                                 </b>
                                 <br>
-                                    New AMD grand office has opened in the center of Innovation Hub Mtwara, Tanzania
+                                    {{ submissions[0].description }}
                                 <br>
                                 <div class="text-small">
                                     Submitted by:
