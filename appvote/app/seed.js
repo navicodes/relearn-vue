@@ -8,7 +8,7 @@
                 url : '#',
                 votes : 16,
                 avatar : '../public/images/avatars/256_1.png',
-                subimissionImage : 'bi bi-amd feed-image'
+                submissionImage : 'bi bi-amd feed-image'
             },
         ];
         // return {
