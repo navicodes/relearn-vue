@@ -33,7 +33,7 @@
                 title : 'Amazon: SmartHomes in East Africa',
                 description : 'Amazon has got a license to make smart homes in Kigali , Rwanda', 
                 url : '#',
-                votes : 10,
+                votes : 19,
                 avatar : '../public/images/avatars/256_5.png',
                 submissionImage : 'bi bi-houses feed-image'
             },
