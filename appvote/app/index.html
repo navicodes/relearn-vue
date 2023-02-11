@@ -60,7 +60,11 @@
                 </div-->
 
                 <!-- another row - dynamic  -->
-                <div class="row pt-3 pb-3"  v-for="submission in sortedSubmissions" v-bind:key="submission.id">
+                <div class="row pt-3 pb-3"  
+                    v-for="submission in sortedSubmissions"
+                    v-bind:key="submission.id"
+                    v-bind:class="{ 'blue-border' : submission.votes => 20 }">
+                
                     <div class="col-md-3"></div>
                     <div class="col-md-1">
                         <div class="feed-image text-left">
