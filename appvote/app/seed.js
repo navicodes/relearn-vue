@@ -35,7 +35,7 @@
                 url : '#',
                 votes : 10,
                 avatar : '../public/images/avatars/256_5.png',
-                submissionImage : 'bi bi-amazon feed-image'
+                submissionImage : 'bi bi-houses feed-image'
             },
         ];
         // return {

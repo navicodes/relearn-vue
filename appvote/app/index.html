@@ -60,12 +60,12 @@
                 </div>
 
                 <!-- another row - dynamic  -->
-                <div class="row pt-2 pb-2" v-for="sub in submissions">
+                <div class="row pt-2 pb-2" v-for="submission in submissions">
                     <div class="col-md-3"></div>
                     <div class="col-md-1">
                         <div class="feed-image text-left">
                             <!-- image or icon-->
-                            <i v-bind:class="submissions[0].submissionImage"></i>
+                            <i v-bind:class="submission.submissionImage"></i>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -74,16 +74,16 @@
                             <div class="content">
                                 <b>
                                     <a href="" class="">
-                                        {{ submissions[0].title }}
+                                        {{ submission.title }}
                                     </a>
-                                    <span class="tag"># {{ submissions[0].id }} </span>
+                                    <span class="tag"># {{ submission.id }} </span>
                                 </b>
                                 <br>
-                                    {{ submissions[0].description }}
+                                    {{ submission.description }}
                                 <br>
                                 <div class="text-small">
                                     Submitted by:
-                                    <img class="avatar" v-bind:src="submissions[0].avatar">
+                                    <img class="avatar" v-bind:src="submission.avatar">
                                 </div>
                             </div>
                             
@@ -92,7 +92,7 @@
                     <div class="col-md-1 text-center">
                         <span class="votes-count">
                             <i class="bi bi-chevron-up small-icon"></i>
-                            <b> {{ submissions[0].votes }} </b>
+                            <b> {{ submission.votes }} </b>
                         </span>
                     </div>
 
