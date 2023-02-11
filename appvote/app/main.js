@@ -3,6 +3,8 @@ new Vue({
     data: {
         submissions : window.Seed.submissions
     },
-    computed: {}
+    computed: {
+        
+    }
     
 });
