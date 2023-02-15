@@ -2,7 +2,7 @@ const submissionComponent = {
     template:
     `
         <div>
-                            <div class="row pt-3 pb-3"  
+                <div class="row pt-3 pb-3"  
                     v-for="submission in sortedSubmissions"
                     v-bind:key="submission.id"
                     >
@@ -45,5 +45,4 @@ const submissionComponent = {
                     <div class="col-md-3"></div>
                 </div>
         </div>
-    `
-}
+    
